@@ -1,16 +1,22 @@
-# untitled6
+# To-Do App 📝
 
-A new Flutter project.
+A clean and simple To-Do List app built with Flutter. It allows users to add, view, complete, and delete tasks, and uses SQLite (`sqflite` package) for local data storage.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- Add new tasks with title and date/time.
+- View all tasks in a structured list.
+- Mark tasks as completed ✅.
+- Swipe to delete tasks 🗑.
+- Persistent local storage using SQLite.
+- Beautiful UI with custom fonts.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠 Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter** – For building the cross-platform UI.
+- **sqflite** – SQLite plugin for Flutter.
+- **path_provider** – To locate database path.
+- **google_fonts** – Custom fonts for a better look.
+
+
